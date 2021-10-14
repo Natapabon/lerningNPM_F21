@@ -1,0 +1,7 @@
+// import the scss files first, all the partials first
+// order is important! rest, vars, queries first, then the main rules (defaults)
+@import "modules/reset";
+@import "modules/vars";
+@import "modules/queries";
+
+@import "modules/defaults";

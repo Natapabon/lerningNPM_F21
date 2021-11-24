@@ -13,7 +13,7 @@
 
     <h2 class="team-blurb">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, consequatur explicabo soluta necessitatibus tenetur ea commodi impedit, dolores quod, voluptates reiciendis. Vitae voluptate dolore consequuntur rem! Laboriosam autem eum dicta.
-        
+
         Laborum, velit sapiente. Nobis, temporibus at? Dicta quas maxime rem illum, eaque aut enim, omnis similique sequi excepturi dolores cumque dolorum dolore officia, saepe vitae quidem. Sed cum iste tempora.
     </h2>
     <!--the dynamic data is going to be here-->
@@ -24,15 +24,14 @@
     <!-- template tags don't get rendered - they just hold reusable content -->
     <template id="bio-template">
         <section class="bio-panel"> 
-            <div class="p_avatar"> <!-- this is index 0 (the first child)-->
+            <!-- the section tag will hold the referece to the row of data in the DB that we want to retrive-->
+            <div class="p_avatar" data-key=""> <!-- this is index 0 (the first child)-->
                 <img src="" alt="">
             </div> 
     
-            <h2 class="p_name">slug</h2> <!-- this is index 1 (the second child)-->
-            <h3 class="p_role">slug</h3> <!-- this is index 2 (the third child)-->
-            <p class="p_nicknames"> <!-- this is index 3 (the fourth child)-->
-                slug
-            </p>
+            <h2 class="p_name"></h2> <!-- this is index 1 (the second child)-->
+            <h3 class="p_role"></h3> <!-- this is index 2 (the third child)-->
+            <p class="p_nicknames"></p> <!-- this is index 3 (the fourth child)-->
         </section>
     </template>
     <!-- end template-->
